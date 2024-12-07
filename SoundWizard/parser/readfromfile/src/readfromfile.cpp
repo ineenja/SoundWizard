@@ -58,7 +58,7 @@ void FileReader::fillInformation(){
         HFREQ, // 4
     };
 
-    for (unsigned int i = 2; i < FileLength; i++){ // ENUMERATORS OR DEFINES TO SET STRING NUMBERS
+    for (unsigned int i = 2; i < FileLength; i++){
         if (FileStrings[i] == "harm"){
             SignalType = FileStrings[i + HTYPE];
             Duration = std::stof(FileStrings[i + HDUR]);
