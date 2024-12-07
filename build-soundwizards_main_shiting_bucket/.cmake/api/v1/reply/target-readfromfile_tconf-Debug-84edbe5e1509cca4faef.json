@@ -1,0 +1,58 @@
+{
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include"
+		],
+		"files" : 
+		[
+			"parser/readfromfile/test/config/conf.cmake",
+			"parser/readfromfile/unittest.cmake",
+			"parser/readfromfile/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 4
+			}
+		]
+	},
+	"id" : "readfromfile_tconf::@b20bccb53d29966e80c6",
+	"name" : "readfromfile_tconf",
+	"paths" : 
+	{
+		"build" : "parser/readfromfile",
+		"source" : "parser/readfromfile"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

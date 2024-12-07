@@ -1,0 +1,2 @@
+C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\ar.exe qc libaudiosignal.a CMakeFiles/audiosignal.dir/audiosignal.cpp.obj
+C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\ranlib.exe libaudiosignal.a

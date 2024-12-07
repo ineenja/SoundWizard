@@ -1,0 +1,190 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "soundwizard/binaries/libharmparameters.dll"
+		},
+		{
+			"path" : "parameters/harmparameters/libharmparameters.dll.a"
+		},
+		{
+			"path" : "soundwizard/binaries/libharmparameters.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"parameters/harmparameters/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "harmparameters_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters"
+				},
+				{
+					"path" : "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/lib"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include/harmparameters"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "iparameters::@126750e5d3b05a300279"
+		}
+	],
+	"id" : "harmparameters::@f123d168f4ca969f21c6",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\iparameters\\libiparameters.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "harmparameters",
+	"nameOnDisk" : "libharmparameters.dll",
+	"paths" : 
+	{
+		"build" : "parameters/harmparameters",
+		"source" : "parameters/harmparameters"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "parameters/harmparameters/include/harmparameters/harmparameters.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "parameters/harmparameters/src/harmparameters.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

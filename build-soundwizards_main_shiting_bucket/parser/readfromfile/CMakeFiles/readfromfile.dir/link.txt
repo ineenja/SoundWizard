@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\readfromfile.dir/objects.a
+C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\ar.exe qc CMakeFiles\readfromfile.dir/objects.a @CMakeFiles\readfromfile.dir\objects1.rsp
+C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe -g -shared -o ..\..\soundwizard\binaries\libreadfromfile.dll -Wl,--out-implib,libreadfromfile.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\readfromfile.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\readfromfile.dir\linkLibs.rsp

@@ -1,0 +1,1516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="soundwizard"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\generators\;CMake Files\generators\audiogenerator\;CMake Files\generators\audiogenerator\harmonicgenerator\;CMake Files\generators\audiogenerator\harmonicgenerator\test\;CMake Files\generators\audiogenerator\harmonicgenerator\test\config\;CMake Files\generators\igenerator\;CMake Files\signals\;CMake Files\signals\audiosignal\;CMake Files\signals\isignal\;CMake Files\genfactory\;CMake Files\genfactory\test\;CMake Files\genfactory\test\config\;CMake Files\googletests\;CMake Files\googletests\gtest\;CMake Files\parameters\;CMake Files\parameters\harmparameters\;CMake Files\parameters\harmparameters\test\;CMake Files\parameters\harmparameters\test\config\;CMake Files\parameters\iparameters\;CMake Files\parser\;CMake Files\parser\readfromfile\;CMake Files\parser\readfromfile\test\;CMake Files\parser\readfromfile\test\config\;CMake Files\parser\writetofile\;CMake Files\parser\writetofile\test\;CMake Files\parser\writetofile\test\config\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soundwizard">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/soundwizard.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 soundwizard"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soundwizard/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/soundwizard.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 soundwizard/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libgtest.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/googletests/gtest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/googletests/gtest"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/googletests/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/googletests/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/googletests/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/googletests/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libgtest.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/googletests/gtest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/googletests/gtest"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/googletests/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/googletests/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/googletests/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/googletests/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="isignal">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libisignal.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/isignal"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include/isignal"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/isignal/Makefile&quot;  VERBOSE=1 isignal"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/isignal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/isignal/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/isignal/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="isignal/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libisignal.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/isignal"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include/isignal"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/isignal/Makefile&quot;  VERBOSE=1 isignal/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/isignal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/isignal/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/isignal/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="audiosignal">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libaudiosignal.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/audiosignal"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/audiosignal/Makefile&quot;  VERBOSE=1 audiosignal"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/audiosignal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/audiosignal/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/audiosignal/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="audiosignal/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libaudiosignal.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/audiosignal"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/audiosignal/Makefile&quot;  VERBOSE=1 audiosignal/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/audiosignal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/audiosignal/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/audiosignal/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igenerator">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libigenerator.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/igenerator"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/igenerator/Makefile&quot;  VERBOSE=1 igenerator"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/igenerator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/igenerator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/igenerator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igenerator/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libigenerator.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/igenerator"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/igenerator/Makefile&quot;  VERBOSE=1 igenerator/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/igenerator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/igenerator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/igenerator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="audiogenerator">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libaudiogenerator.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/Makefile&quot;  VERBOSE=1 audiogenerator"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="audiogenerator/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libaudiogenerator.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/Makefile&quot;  VERBOSE=1 audiogenerator/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="harmonicgenerator">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libharmonicgenerator.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 harmonicgenerator"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="harmonicgenerator/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libharmonicgenerator.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 harmonicgenerator/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="harmonicgenerator_t">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/harmonicgenerator_t.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 harmonicgenerator_t"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="harmonicgenerator_t/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/harmonicgenerator_t.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 harmonicgenerator_t/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="harmonicgenerator_tconf">
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 harmonicgenerator_tconf"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="genfactory">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libgenfactory.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/include/genfactory"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 genfactory"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="genfactory/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libgenfactory.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/include/genfactory"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 genfactory/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="genfactory_t">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/genfactory_t.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 genfactory_t"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="genfactory_t/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/genfactory_t.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 genfactory_t/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="genfactory_tconf">
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 genfactory_tconf"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/genfactory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iparameters">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libiparameters.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/iparameters"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include/iparameters"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/iparameters/Makefile&quot;  VERBOSE=1 iparameters"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/iparameters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/iparameters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/iparameters/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iparameters/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libiparameters.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/iparameters"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include/iparameters"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/iparameters/Makefile&quot;  VERBOSE=1 iparameters/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/iparameters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/iparameters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/iparameters/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="harmparameters">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libharmparameters.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 harmparameters"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="harmparameters/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libharmparameters.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 harmparameters/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="harmparameters_t">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/harmparameters_t.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 harmparameters_t"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="harmparameters_t/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/harmparameters_t.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 harmparameters_t/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="harmparameters_tconf">
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 harmparameters_tconf"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="readfromfile">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libreadfromfile.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 readfromfile"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="readfromfile/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libreadfromfile.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 readfromfile/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="readfromfile_t">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/readfromfile_t.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 readfromfile_t"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="readfromfile_t/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/readfromfile_t.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 readfromfile_t/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="readfromfile_tconf">
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 readfromfile_tconf"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="writetofile">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libwritetofile.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/include/writetofile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 writetofile"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="writetofile/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/libwritetofile.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/lib"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/include/writetofile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 writetofile/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="writetofile_t">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/writetofile_t.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 writetofile_t"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="writetofile_t/fast">
+				<Option output="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/writetofile_t.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include"/>
+					<Add directory="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 writetofile_t/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="writetofile_tconf">
+				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 writetofile_tconf"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include/harmonicgenerator/harmgenerator.h">
+			<Option target="harmonicgenerator"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/src/harmgenerator.cpp">
+			<Option target="harmonicgenerator"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/test/harmgen.cpp">
+			<Option target="harmonicgenerator_t"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/test/main.cpp">
+			<Option target="harmonicgenerator_t"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include/audiogenerator/audiogenerator.h">
+			<Option target="audiogenerator"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/src/audiogenerator.cpp">
+			<Option target="audiogenerator"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include/igenerator/igenerator.h">
+			<Option target="igenerator"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/src/igenerator.cpp">
+			<Option target="igenerator"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/include/genfactory/genfactory.h">
+			<Option target="genfactory"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/src/genfactory.cpp">
+			<Option target="genfactory"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/test/genfactory_test.cpp">
+			<Option target="genfactory_t"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/test/main.cpp">
+			<Option target="genfactory_t"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/gmock-actions.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/gmock-cardinalities.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/gmock-generated-actions.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/gmock-generated-function-mockers.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/gmock-generated-matchers.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/gmock-generated-nice-strict.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/gmock-matchers.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/gmock-more-actions.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/gmock-more-matchers.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/gmock-spec-builders.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/gmock.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/internal/custom/gmock-generated-actions.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/internal/custom/gmock-matchers.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/internal/custom/gmock-port.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/internal/gmock-generated-internal-utils.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/internal/gmock-internal-utils.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/include/gmock/internal/gmock-port.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gmock/src/gmock-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/gtest-death-test.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/gtest-message.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/gtest-param-test.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/gtest-printers.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/gtest-spi.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/gtest-test-part.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/gtest-typed-test.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/gtest.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/gtest_pred_impl.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/gtest_prod.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/custom/gtest-port.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/custom/gtest-printers.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/custom/gtest.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/gtest-death-test-internal.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/gtest-filepath.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/gtest-internal.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/gtest-linked_ptr.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/gtest-param-util-generated.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/gtest-param-util.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/gtest-port-arch.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/gtest-port.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/gtest-string.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/gtest-tuple.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/internal/gtest-type-util.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/src/gtest-internal-inl.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/main.cpp">
+			<Option target="soundwizard"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include/harmparameters/harmparameters.h">
+			<Option target="harmparameters"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/src/harmparameters.cpp">
+			<Option target="harmparameters"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/test/harmparams_test.cpp">
+			<Option target="harmparameters_t"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/test/main.cpp">
+			<Option target="harmparameters_t"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include/iparameters/iparameters.h">
+			<Option target="iparameters"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/src/iparameters.cpp">
+			<Option target="iparameters"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/include/readfromfile/readfromfile.h">
+			<Option target="readfromfile"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/src/readfromfile.cpp">
+			<Option target="readfromfile"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/test/main.cpp">
+			<Option target="readfromfile_t"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/test/parser_read_test.cpp">
+			<Option target="readfromfile_t"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/include/writetofile/writetofile.h">
+			<Option target="writetofile"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/src/writetofile.cpp">
+			<Option target="writetofile"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/test/example_test.cpp">
+			<Option target="writetofile_t"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/test/main.cpp">
+			<Option target="writetofile_t"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include/audiosignal/audiosignal.h">
+			<Option target="audiosignal"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/src/audiosignal.cpp">
+			<Option target="audiosignal"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include/isignal/isignal.h">
+			<Option target="isignal"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/src/isignal.cpp">
+			<Option target="isignal"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\generators\audiogenerator\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\generators\audiogenerator\harmonicgenerator\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/unittest.cmake">
+			<Option virtualFolder="CMake Files\generators\audiogenerator\harmonicgenerator\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/test/config/conf.cmake">
+			<Option virtualFolder="CMake Files\generators\audiogenerator\harmonicgenerator\test\config\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\generators\igenerator\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\signals\audiosignal\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\signals\isignal\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\genfactory\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/unittest.cmake">
+			<Option virtualFolder="CMake Files\genfactory\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/test/config/conf.cmake">
+			<Option virtualFolder="CMake Files\genfactory\test\config\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletests\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletests\gtest\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\parameters\harmparameters\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/unittest.cmake">
+			<Option virtualFolder="CMake Files\parameters\harmparameters\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/test/config/conf.cmake">
+			<Option virtualFolder="CMake Files\parameters\harmparameters\test\config\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\parameters\iparameters\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\parser\readfromfile\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/unittest.cmake">
+			<Option virtualFolder="CMake Files\parser\readfromfile\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/test/config/conf.cmake">
+			<Option virtualFolder="CMake Files\parser\readfromfile\test\config\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\parser\writetofile\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/unittest.cmake">
+			<Option virtualFolder="CMake Files\parser\writetofile\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/test/config/conf.cmake">
+			<Option virtualFolder="CMake Files\parser\writetofile\test\config\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+ ../igenerator/libigenerator.dll.a ../../signals/audiosignal/libaudiosignal.dll.a ../../parser/readfromfile/libreadfromfile.dll.a ../../parameters/harmparameters/libharmparameters.dll.a ../../parameters/iparameters/libiparameters.dll.a ../../signals/isignal/libisignal.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
