@@ -5,8 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("googletests")
-subdirs("signals/isignal")
-subdirs("signals/audiosignal")
+subdirs("signal")
 subdirs("generators/igenerator")
 subdirs("generators/audiogenerator")
 subdirs("generators/audiogenerator/harmonicgenerator")
@@ -15,3 +14,4 @@ subdirs("parameters/iparameters")
 subdirs("parameters/harmparameters")
 subdirs("parser/readfromfile")
 subdirs("parser/writetofile")
+subdirs("sound")

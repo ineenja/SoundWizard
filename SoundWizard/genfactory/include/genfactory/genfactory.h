@@ -12,10 +12,10 @@ public:
 
     ~GeneratorsFactory() = default;
 
-    std::vector<std::shared_ptr<IGenerator>> getSignalsGenerators() const;
+    std::vector<std::shared_ptr<const IGenerator>> getSignalsGenerators() const;
 
 private:
-    std::vector<std::shared_ptr<IGenerator>> SignalsGenerators;
+    std::vector<std::shared_ptr<const IGenerator>> SignalsGenerators;
 };
 
 

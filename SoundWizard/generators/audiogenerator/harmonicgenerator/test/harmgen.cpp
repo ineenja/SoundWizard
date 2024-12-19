@@ -2,7 +2,7 @@
 #include <iostream>
 #include "harmonicgenerator/harmgenerator.h"
 #include "readfromfile/readfromfile.h"
-#include "isignal/isignal.h"
+#include "signal/signal.h"
 
 TEST(HarmGenTest, GeneratorCreationSeparate) {
 
@@ -13,8 +13,7 @@ TEST(HarmGenTest, GeneratorCreationSeparate) {
 
 TEST(HarmGenTest, GeneratorCreationWithParsing) {
 
-    std::string FilePath = "C:\\Users\\theiz\\OneDrive\\Desktop\\EngPathStuff\\cppSTC\\SoundWizardTop\\SoundWizard\\genfactory\\test\\TestGenParams1.txt";
-    FileReader CheckFile = FileReader(FilePath); // копируем данные о сигналах из файлы в программу
+    FileReader CheckFile = FileReader("TestGenParams1.txt"); // копируем данные о сигналах из файлы в программу
     CheckFile.fillInformation();
 
     std::vector<std::shared_ptr<IParameters>> ParamsCheckVector = CheckFile.getSignalsParameters();
@@ -40,8 +39,7 @@ TEST(HarmGenTest, GeneratorCreationWithParsing) {
 
 TEST(HarmGenTest, CorrectTypeWithParsing) {
 
-    std::string FilePath = "C:\\Users\\theiz\\OneDrive\\Desktop\\EngPathStuff\\cppSTC\\SoundWizardTop\\SoundWizard\\genfactory\\test\\TestGenParams1.txt";
-    FileReader CheckFile = FileReader(FilePath); // копируем данные о сигналах из файлы в программу
+    FileReader CheckFile = FileReader("TestGenParams1.txt"); // копируем данные о сигналах из файлы в программу
     CheckFile.fillInformation();
 
     std::vector<std::shared_ptr<IParameters>> ParamsCheckVector = CheckFile.getSignalsParameters();
@@ -67,8 +65,7 @@ TEST(HarmGenTest, CorrectTypeWithParsing) {
 
 TEST(HarmGenTest, SignalsCreationWithParsing) {
 
-    std::string FilePath = "C:\\Users\\theiz\\OneDrive\\Desktop\\EngPathStuff\\cppSTC\\SoundWizardTop\\SoundWizard\\genfactory\\test\\TestGenParams1.txt";
-    FileReader CheckFile = FileReader(FilePath); // копируем данные о сигналах из файлы в программу
+    FileReader CheckFile = FileReader("TestGenParams1.txt"); // копируем данные о сигналах из файлы в программу
     CheckFile.fillInformation();
 
     std::vector<std::shared_ptr<IParameters>> ParamsCheckVector = CheckFile.getSignalsParameters();
@@ -87,13 +84,13 @@ TEST(HarmGenTest, SignalsCreationWithParsing) {
         }
     }
 
-    std::vector<std::shared_ptr<ISignal>> TestSignals;
+    std::vector<std::shared_ptr<Signal>> TestSignals;
 
     for (const auto& obj : SignalsGenerators){
         if(dynamic_cast<HarmGenerator*>(obj.get())){
-            std::vector<float> Signal = {dynamic_cast<HarmGenerator*>(obj.get())->GenerateSignal()};
+            std::vector<float> SignalI = {dynamic_cast<HarmGenerator*>(obj.get())->GenerateSignal()};
             uint32_t SignalID = obj->getSignalID();
-            TestSignals.push_back(std::make_shared<AudioSignal>(Signal, SignalID));
+            TestSignals.push_back(std::make_shared<Signal>(SignalI, SignalID));
         }
     }
 
@@ -102,42 +99,6 @@ TEST(HarmGenTest, SignalsCreationWithParsing) {
     EXPECT_EQ(TestSignals.size(), 2);
 }
 
-TEST(HarmGenTest, SignalsTypeWithParsing) {
-
-    std::string FilePath = "C:\\Users\\theiz\\OneDrive\\Desktop\\EngPathStuff\\cppSTC\\SoundWizardTop\\SoundWizard\\genfactory\\test\\TestGenParams1.txt";
-    FileReader CheckFile = FileReader(FilePath); // копируем данные о сигналах из файлы в программу
-    CheckFile.fillInformation();
-
-    std::vector<std::shared_ptr<IParameters>> ParamsCheckVector = CheckFile.getSignalsParameters();
-
-    std::vector<std::shared_ptr<IGenerator>> SignalsGenerators;
-
-    for (const auto& obj : ParamsCheckVector){
-        if(dynamic_cast<HarmParameters*>(obj.get())){
-            float tempFreq = (dynamic_cast<HarmParameters*>(obj.get()))->getHarmFreq();
-            float tempAmpl = (dynamic_cast<HarmParameters*>(obj.get()))->getHarmAmpl();
-            uint32_t tempSampleRate = (obj.get())->getSampleRate();
-            uint32_t tempDuration = (obj.get())->getSignalLengthSamples();
-            uint32_t tempID = (obj.get())->getSignalID();
-
-            SignalsGenerators.push_back(std::make_shared<HarmGenerator>(tempFreq, tempAmpl, tempSampleRate, tempDuration, tempID));
-        }
-    }
-
-    std::vector<std::shared_ptr<ISignal>> TestSignals;
-
-    for (const auto& obj : SignalsGenerators){
-        if(dynamic_cast<HarmGenerator*>(obj.get())){
-            std::vector<float> Signal = {dynamic_cast<HarmGenerator*>(obj.get())->GenerateSignal()};
-            uint32_t SignalID = obj->getSignalID();
-            TestSignals.push_back(std::make_shared<AudioSignal>(Signal, SignalID));
-        }
-    }
-
-    ASSERT_TRUE(dynamic_cast<AudioSignal*>(TestSignals[0].get()));
-    ASSERT_TRUE(dynamic_cast<AudioSignal*>(TestSignals[1].get()));
-    EXPECT_EQ(TestSignals.size(), 2);
-}
 
 TEST(HarmGenTest, SignalParametersCheck) {
 
@@ -149,7 +110,7 @@ TEST(HarmGenTest, SignalParametersCheck) {
 
     HarmGenerator Check(SampleFreq, SampleAmpl, SampleRate, SampleDuration, SampleSignalID);
     std::vector<float> OriginalSamples = Check.GenerateSignal();
-    AudioSignal CheckSignal(OriginalSamples, Check.getSignalID());
+    Signal CheckSignal(OriginalSamples, Check.getSignalID());
     std::vector<float> CheckSamples(CheckSignal.getSignal());
 
     EXPECT_EQ(SampleDuration, CheckSamples.size());
@@ -165,7 +126,7 @@ TEST(HarmGenTest, SignalSamplesCheck) {
 
     std::vector<float> OriginalSamples = Check.GenerateSignal();
 
-    AudioSignal CheckSignal(OriginalSamples, Check.getSignalID());
+    Signal CheckSignal(OriginalSamples, Check.getSignalID());
 
     std::vector<float> CheckSamples(CheckSignal.getSignal());
 

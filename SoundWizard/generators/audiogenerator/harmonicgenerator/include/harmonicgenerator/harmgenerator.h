@@ -12,7 +12,7 @@ public:
 
     ~HarmGenerator() = default;
 
-    std::vector<float> GenerateSignal() override;
+    std::vector<float> GenerateSignal() const override;
 
 private:
     float HarmFreq;

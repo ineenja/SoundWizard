@@ -152,30 +152,17 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
-# Target rules for targets named isignal
+# Target rules for targets named signal
 
 # Build rule for target.
-isignal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 isignal
-.PHONY : isignal
+signal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 signal
+.PHONY : signal
 
 # fast build rule for target.
-isignal/fast:
-	$(MAKE) $(MAKESILENT) -f signals\isignal\CMakeFiles\isignal.dir\build.make signals/isignal/CMakeFiles/isignal.dir/build
-.PHONY : isignal/fast
-
-#=============================================================================
-# Target rules for targets named audiosignal
-
-# Build rule for target.
-audiosignal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 audiosignal
-.PHONY : audiosignal
-
-# fast build rule for target.
-audiosignal/fast:
-	$(MAKE) $(MAKESILENT) -f signals\audiosignal\CMakeFiles\audiosignal.dir\build.make signals/audiosignal/CMakeFiles/audiosignal.dir/build
-.PHONY : audiosignal/fast
+signal/fast:
+	$(MAKE) $(MAKESILENT) -f signal\CMakeFiles\signal.dir\build.make signal/CMakeFiles/signal.dir/build
+.PHONY : signal/fast
 
 #=============================================================================
 # Target rules for targets named igenerator
@@ -411,6 +398,45 @@ writetofile_tconf/fast:
 	$(MAKE) $(MAKESILENT) -f parser\writetofile\CMakeFiles\writetofile_tconf.dir\build.make parser/writetofile/CMakeFiles/writetofile_tconf.dir/build
 .PHONY : writetofile_tconf/fast
 
+#=============================================================================
+# Target rules for targets named sound
+
+# Build rule for target.
+sound: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sound
+.PHONY : sound
+
+# fast build rule for target.
+sound/fast:
+	$(MAKE) $(MAKESILENT) -f sound\CMakeFiles\sound.dir\build.make sound/CMakeFiles/sound.dir/build
+.PHONY : sound/fast
+
+#=============================================================================
+# Target rules for targets named sound_t
+
+# Build rule for target.
+sound_t: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sound_t
+.PHONY : sound_t
+
+# fast build rule for target.
+sound_t/fast:
+	$(MAKE) $(MAKESILENT) -f sound\CMakeFiles\sound_t.dir\build.make sound/CMakeFiles/sound_t.dir/build
+.PHONY : sound_t/fast
+
+#=============================================================================
+# Target rules for targets named sound_tconf
+
+# Build rule for target.
+sound_tconf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sound_tconf
+.PHONY : sound_tconf
+
+# fast build rule for target.
+sound_tconf/fast:
+	$(MAKE) $(MAKESILENT) -f sound\CMakeFiles\sound_tconf.dir\build.make sound/CMakeFiles/sound_tconf.dir/build
+.PHONY : sound_tconf/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -448,9 +474,9 @@ help:
 	@echo ... harmonicgenerator_tconf
 	@echo ... harmparameters_tconf
 	@echo ... readfromfile_tconf
+	@echo ... sound_tconf
 	@echo ... writetofile_tconf
 	@echo ... audiogenerator
-	@echo ... audiosignal
 	@echo ... genfactory
 	@echo ... genfactory_t
 	@echo ... gtest
@@ -460,9 +486,11 @@ help:
 	@echo ... harmparameters_t
 	@echo ... igenerator
 	@echo ... iparameters
-	@echo ... isignal
 	@echo ... readfromfile
 	@echo ... readfromfile_t
+	@echo ... signal
+	@echo ... sound
+	@echo ... sound_t
 	@echo ... soundwizard
 	@echo ... writetofile
 	@echo ... writetofile_t

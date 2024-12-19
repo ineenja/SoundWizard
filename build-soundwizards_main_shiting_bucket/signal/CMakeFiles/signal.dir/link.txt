@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\signal.dir/objects.a
+C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\ar.exe qc CMakeFiles\signal.dir/objects.a @CMakeFiles\signal.dir\objects1.rsp
+C:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe -g -shared -o ..\soundwizard\binaries\libsignal.dll -Wl,--out-implib,libsignal.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\signal.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\signal.dir\linkLibs.rsp

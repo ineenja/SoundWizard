@@ -1,7 +1,5 @@
 #include "readfromfile.h"
 
-//#define FILE_PATH "C:\\Users\\theiz\\OneDrive\\Desktop\\EngPathStuff\\cppSTC\\SoundWizardTop\\SoundWizard\\info.txt"
-
 FileReader::FileReader(std::string FilePath)
 {
     std::fstream file;

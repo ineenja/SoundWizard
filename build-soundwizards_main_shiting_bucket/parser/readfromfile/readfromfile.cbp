@@ -5,7 +5,7 @@
 		<Option title="readfromfile"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\generators\;CMake Files\generators\audiogenerator\;CMake Files\generators\audiogenerator\harmonicgenerator\;CMake Files\generators\audiogenerator\harmonicgenerator\test\;CMake Files\generators\audiogenerator\harmonicgenerator\test\config\;CMake Files\generators\igenerator\;CMake Files\signals\;CMake Files\signals\audiosignal\;CMake Files\signals\isignal\;CMake Files\genfactory\;CMake Files\genfactory\test\;CMake Files\genfactory\test\config\;CMake Files\googletests\;CMake Files\googletests\gtest\;CMake Files\parameters\;CMake Files\parameters\harmparameters\;CMake Files\parameters\harmparameters\test\;CMake Files\parameters\harmparameters\test\config\;CMake Files\parameters\iparameters\;CMake Files\parser\;CMake Files\parser\readfromfile\;CMake Files\parser\readfromfile\test\;CMake Files\parser\readfromfile\test\config\;CMake Files\parser\writetofile\;CMake Files\parser\writetofile\test\;CMake Files\parser\writetofile\test\config\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\generators\;CMake Files\generators\audiogenerator\;CMake Files\generators\audiogenerator\harmonicgenerator\;CMake Files\generators\audiogenerator\harmonicgenerator\test\;CMake Files\generators\audiogenerator\harmonicgenerator\test\config\;CMake Files\generators\igenerator\;CMake Files\genfactory\;CMake Files\genfactory\test\;CMake Files\genfactory\test\config\;CMake Files\googletests\;CMake Files\googletests\gtest\;CMake Files\parameters\;CMake Files\parameters\harmparameters\;CMake Files\parameters\harmparameters\test\;CMake Files\parameters\harmparameters\test\config\;CMake Files\parameters\iparameters\;CMake Files\parser\;CMake Files\parser\readfromfile\;CMake Files\parser\readfromfile\test\;CMake Files\parser\readfromfile\test\config\;CMake Files\parser\writetofile\;CMake Files\parser\writetofile\test\;CMake Files\parser\writetofile\test\config\;CMake Files\signal\;CMake Files\sound\;CMake Files\sound\test\;CMake Files\sound\test\config\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile"/>
@@ -163,6 +163,12 @@
 		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/information.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/music.wav">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
 		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\generators\audiogenerator\"/>
 		</Unit>
@@ -177,12 +183,6 @@
 		</Unit>
 		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\generators\igenerator\"/>
-		</Unit>
-		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\signals\audiosignal\"/>
-		</Unit>
-		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\signals\isignal\"/>
 		</Unit>
 		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\genfactory\"/>
@@ -228,6 +228,18 @@
 		</Unit>
 		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/test/config/conf.cmake">
 			<Option virtualFolder="CMake Files\parser\writetofile\test\config\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\signal\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/sound/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sound\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/sound/unittest.cmake">
+			<Option virtualFolder="CMake Files\sound\"/>
+		</Unit>
+		<Unit filename="C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/sound/test/config/conf.cmake">
+			<Option virtualFolder="CMake Files\sound\test\config\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

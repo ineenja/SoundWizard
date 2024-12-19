@@ -65,6 +65,12 @@ include parser/readfromfile/CMakeFiles/readfromfile_tconf.dir/compiler_depend.ma
 # Include the progress variables for this target.
 include parser/readfromfile/CMakeFiles/readfromfile_tconf.dir/progress.make
 
+parser/readfromfile/CMakeFiles/readfromfile_tconf:
+	cd /d C:\Users\theiz\OneDrive\Desktop\EngPathStuff\cppSTC\SoundWizardTop\build-soundwizards_main_shiting_bucket\parser\readfromfile && "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/test/config/TestInterpreting.txt C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/
+	cd /d C:\Users\theiz\OneDrive\Desktop\EngPathStuff\cppSTC\SoundWizardTop\build-soundwizards_main_shiting_bucket\parser\readfromfile && "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/test/config/TestInterpreting2.txt C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/
+	cd /d C:\Users\theiz\OneDrive\Desktop\EngPathStuff\cppSTC\SoundWizardTop\build-soundwizards_main_shiting_bucket\parser\readfromfile && "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile/test/config/TestReading.txt C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/
+
+readfromfile_tconf: parser/readfromfile/CMakeFiles/readfromfile_tconf
 readfromfile_tconf: parser/readfromfile/CMakeFiles/readfromfile_tconf.dir/build.make
 .PHONY : readfromfile_tconf
 

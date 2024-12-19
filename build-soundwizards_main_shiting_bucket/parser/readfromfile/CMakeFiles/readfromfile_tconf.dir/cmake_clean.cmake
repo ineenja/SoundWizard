@@ -1,3 +1,6 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/readfromfile_tconf"
+)
 
 # Per-language clean rules from dependency scanning.
 foreach(lang )

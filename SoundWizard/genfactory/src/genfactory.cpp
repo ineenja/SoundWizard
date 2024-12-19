@@ -23,6 +23,6 @@ GeneratorsFactory::GeneratorsFactory(const std::vector<std::shared_ptr<IParamete
     }
 }
 
-std::vector<std::shared_ptr<IGenerator>> GeneratorsFactory::getSignalsGenerators() const{
+std::vector<std::shared_ptr<const IGenerator>> GeneratorsFactory::getSignalsGenerators() const{
     return SignalsGenerators;
 }

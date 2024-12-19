@@ -92,8 +92,8 @@ igenerator_EXTERNAL_OBJECTS =
 
 soundwizard/binaries/libigenerator.dll: generators/igenerator/CMakeFiles/igenerator.dir/src/igenerator.cpp.obj
 soundwizard/binaries/libigenerator.dll: generators/igenerator/CMakeFiles/igenerator.dir/build.make
-soundwizard/binaries/libigenerator.dll: signals/isignal/libisignal.dll.a
 soundwizard/binaries/libigenerator.dll: parser/readfromfile/libreadfromfile.dll.a
+soundwizard/binaries/libigenerator.dll: signal/libsignal.dll.a
 soundwizard/binaries/libigenerator.dll: parameters/harmparameters/libharmparameters.dll.a
 soundwizard/binaries/libigenerator.dll: parameters/iparameters/libiparameters.dll.a
 soundwizard/binaries/libigenerator.dll: generators/igenerator/CMakeFiles/igenerator.dir/linkLibs.rsp

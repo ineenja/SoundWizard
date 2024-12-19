@@ -40,8 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/googletests/cmake_install.cmake")
-  include("C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/isignal/cmake_install.cmake")
-  include("C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signals/audiosignal/cmake_install.cmake")
+  include("C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signal/cmake_install.cmake")
   include("C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/igenerator/cmake_install.cmake")
   include("C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/cmake_install.cmake")
   include("C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/generators/audiogenerator/harmonicgenerator/cmake_install.cmake")
@@ -50,6 +49,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parameters/harmparameters/cmake_install.cmake")
   include("C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/readfromfile/cmake_install.cmake")
   include("C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/parser/writetofile/cmake_install.cmake")
+  include("C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/sound/cmake_install.cmake")
 
 endif()
 

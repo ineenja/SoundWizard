@@ -98,8 +98,7 @@ soundwizard/binaries/libgenfactory.dll: generators/igenerator/libigenerator.dll.
 soundwizard/binaries/libgenfactory.dll: parser/readfromfile/libreadfromfile.dll.a
 soundwizard/binaries/libgenfactory.dll: parameters/harmparameters/libharmparameters.dll.a
 soundwizard/binaries/libgenfactory.dll: parameters/iparameters/libiparameters.dll.a
-soundwizard/binaries/libgenfactory.dll: signals/audiosignal/libaudiosignal.dll.a
-soundwizard/binaries/libgenfactory.dll: signals/isignal/libisignal.dll.a
+soundwizard/binaries/libgenfactory.dll: signal/libsignal.dll.a
 soundwizard/binaries/libgenfactory.dll: genfactory/CMakeFiles/genfactory.dir/linkLibs.rsp
 soundwizard/binaries/libgenfactory.dll: genfactory/CMakeFiles/genfactory.dir/objects1.rsp
 soundwizard/binaries/libgenfactory.dll: genfactory/CMakeFiles/genfactory.dir/link.txt

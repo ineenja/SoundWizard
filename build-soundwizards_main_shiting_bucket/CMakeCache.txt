@@ -37,7 +37,7 @@ CMAKE_CODEBLOCKS_MAKE_ARGUMENTS:STRING=
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//No help, variable specified on the command line.
+//CXX compiler
 CMAKE_CXX_COMPILER:STRING=C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
@@ -66,7 +66,7 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
-//No help, variable specified on the command line.
+//C compiler
 CMAKE_C_COMPILER:STRING=C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
@@ -259,7 +259,7 @@ audiogenerator_BINARY_DIR:STATIC=C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cp
 audiogenerator_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-audiogenerator_LIB_DEPENDS:STATIC=general;igenerator;general;audiosignal;
+audiogenerator_LIB_DEPENDS:STATIC=general;igenerator;
 
 //Value Computed by CMake
 audiogenerator_SOURCE_DIR:STATIC=C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator
@@ -328,7 +328,7 @@ igenerator_BINARY_DIR:STATIC=C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC
 igenerator_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-igenerator_LIB_DEPENDS:STATIC=general;isignal;general;iparameters;general;readfromfile;
+igenerator_LIB_DEPENDS:STATIC=general;iparameters;general;readfromfile;general;signal;
 
 //Value Computed by CMake
 igenerator_SOURCE_DIR:STATIC=C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator
@@ -362,6 +362,27 @@ readfromfile_LIB_DEPENDS:STATIC=general;iparameters;general;harmparameters;
 
 //Value Computed by CMake
 readfromfile_SOURCE_DIR:STATIC=C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/readfromfile
+
+//Value Computed by CMake
+signal_BINARY_DIR:STATIC=C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/signal
+
+//Value Computed by CMake
+signal_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+signal_SOURCE_DIR:STATIC=C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signal
+
+//Value Computed by CMake
+sound_BINARY_DIR:STATIC=C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/sound
+
+//Value Computed by CMake
+sound_IS_TOP_LEVEL:STATIC=OFF
+
+//Dependencies for the target
+sound_LIB_DEPENDS:STATIC=general;genfactory;general;writetofile;general;signal;
+
+//Value Computed by CMake
+sound_SOURCE_DIR:STATIC=C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/sound
 
 //Value Computed by CMake
 soundwizard_BINARY_DIR:STATIC=C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket

@@ -92,14 +92,14 @@ soundwizard_EXTERNAL_OBJECTS =
 
 soundwizard/binaries/soundwizard.exe: CMakeFiles/soundwizard.dir/main.cpp.obj
 soundwizard/binaries/soundwizard.exe: CMakeFiles/soundwizard.dir/build.make
+soundwizard/binaries/soundwizard.exe: sound/libsound.dll.a
 soundwizard/binaries/soundwizard.exe: genfactory/libgenfactory.dll.a
-soundwizard/binaries/soundwizard.exe: parser/writetofile/libwritetofile.dll.a
 soundwizard/binaries/soundwizard.exe: generators/audiogenerator/harmonicgenerator/libharmonicgenerator.dll.a
 soundwizard/binaries/soundwizard.exe: generators/audiogenerator/libaudiogenerator.dll.a
-soundwizard/binaries/soundwizard.exe: signals/audiosignal/libaudiosignal.dll.a
 soundwizard/binaries/soundwizard.exe: generators/igenerator/libigenerator.dll.a
-soundwizard/binaries/soundwizard.exe: signals/isignal/libisignal.dll.a
+soundwizard/binaries/soundwizard.exe: signal/libsignal.dll.a
 soundwizard/binaries/soundwizard.exe: parser/readfromfile/libreadfromfile.dll.a
+soundwizard/binaries/soundwizard.exe: parser/writetofile/libwritetofile.dll.a
 soundwizard/binaries/soundwizard.exe: parameters/harmparameters/libharmparameters.dll.a
 soundwizard/binaries/soundwizard.exe: parameters/iparameters/libiparameters.dll.a
 soundwizard/binaries/soundwizard.exe: CMakeFiles/soundwizard.dir/linkLibs.rsp

@@ -42,6 +42,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/unittest.cmake"
   "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/CMakeLists.txt"
   "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/CMakeLists.txt"
+  "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/information.txt"
+  "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/music.wav"
   "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/CMakeLists.txt"
   "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/test/config/conf.cmake"
   "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/unittest.cmake"
@@ -52,8 +54,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/CMakeLists.txt"
   "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/test/config/conf.cmake"
   "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parser/writetofile/unittest.cmake"
-  "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/CMakeLists.txt"
-  "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/CMakeLists.txt"
+  "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signal/CMakeLists.txt"
+  "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/sound/CMakeLists.txt"
+  "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/sound/test/config/conf.cmake"
+  "C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/sound/unittest.cmake"
   "CMakeFiles/3.26.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.5/CMakeRCCompiler.cmake"
@@ -68,11 +72,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "soundwizard/binaries/information.txt"
+  "soundwizard/binaries/music.wav"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "googletests/CMakeFiles/CMakeDirectoryInformation.cmake"
   "googletests/gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "signals/isignal/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "signals/audiosignal/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "signal/CMakeFiles/CMakeDirectoryInformation.cmake"
   "generators/igenerator/CMakeFiles/CMakeDirectoryInformation.cmake"
   "generators/audiogenerator/CMakeFiles/CMakeDirectoryInformation.cmake"
   "generators/audiogenerator/harmonicgenerator/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -81,14 +86,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "parameters/harmparameters/CMakeFiles/CMakeDirectoryInformation.cmake"
   "parser/readfromfile/CMakeFiles/CMakeDirectoryInformation.cmake"
   "parser/writetofile/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "sound/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/soundwizard.dir/DependInfo.cmake"
   "googletests/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "signals/isignal/CMakeFiles/isignal.dir/DependInfo.cmake"
-  "signals/audiosignal/CMakeFiles/audiosignal.dir/DependInfo.cmake"
+  "signal/CMakeFiles/signal.dir/DependInfo.cmake"
   "generators/igenerator/CMakeFiles/igenerator.dir/DependInfo.cmake"
   "generators/audiogenerator/CMakeFiles/audiogenerator.dir/DependInfo.cmake"
   "generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator.dir/DependInfo.cmake"
@@ -107,4 +112,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "parser/writetofile/CMakeFiles/writetofile.dir/DependInfo.cmake"
   "parser/writetofile/CMakeFiles/writetofile_t.dir/DependInfo.cmake"
   "parser/writetofile/CMakeFiles/writetofile_tconf.dir/DependInfo.cmake"
+  "sound/CMakeFiles/sound.dir/DependInfo.cmake"
+  "sound/CMakeFiles/sound_t.dir/DependInfo.cmake"
+  "sound/CMakeFiles/sound_tconf.dir/DependInfo.cmake"
   )

@@ -16,6 +16,17 @@ elseif(WIN32)
     set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/${PROJECT_NAME}/binaries)
 endif()
 
+configure_file(
+    ${CMAKE_CURRENT_SOURCE_DIR}/information.txt
+    ${TEST_OUTPUT_PATH}/information.txt
+    COPYONLY
+)
+configure_file(
+    ${CMAKE_CURRENT_SOURCE_DIR}/music.wav
+    ${TEST_OUTPUT_PATH}/music.wav
+    COPYONLY
+)
+
 set(UNITTEST ON)
 
 if(UNITTEST)
@@ -25,11 +36,8 @@ endif()
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-add_subdirectory(${PROJECT_SOURCE_DIR}/signals/isignal)
-target_link_libraries(${PROJECT_NAME} PUBLIC isignal)
-
-add_subdirectory(${PROJECT_SOURCE_DIR}/signals/audiosignal)
-target_link_libraries(${PROJECT_NAME} PUBLIC audiosignal)
+add_subdirectory(${PROJECT_SOURCE_DIR}/signal)
+target_link_libraries(${PROJECT_NAME} PUBLIC signal)
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/generators/igenerator)
 target_link_libraries(${PROJECT_NAME} PUBLIC igenerator)
@@ -54,6 +62,9 @@ target_link_libraries(${PROJECT_NAME} PUBLIC readfromfile)
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/parser/writetofile)
 target_link_libraries(${PROJECT_NAME} PUBLIC writetofile)
+
+add_subdirectory(${PROJECT_SOURCE_DIR}/sound)
+target_link_libraries(${PROJECT_NAME} PUBLIC sound)
 
 
 

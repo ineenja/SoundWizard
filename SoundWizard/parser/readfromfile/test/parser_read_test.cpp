@@ -9,8 +9,7 @@ TEST(ParserTestsReading, ReadingFromFile) {
     Sample.push_back("456");
     Sample.push_back("789");
 
-    std::string FilePath = "C:\\Users\\theiz\\OneDrive\\Desktop\\EngPathStuff\\cppSTC\\SoundWizardTop\\SoundWizard\\parser\\readfromfile\\test\\TestReading.txt";
-    FileReader Check = FileReader(FilePath); // копируем данные о сигналах из файлы в программу
+    FileReader Check = FileReader("TestReading.txt"); // копируем данные о сигналах из файлы в программу
 
     std::vector<std::string> ToCheck = Check.getFileStrings();
 
@@ -21,8 +20,7 @@ TEST(ParserTestsReading, WAVDurationInterpretation) {
 
     float Sample = 1;
 
-    std::string FilePath = "C:\\Users\\theiz\\OneDrive\\Desktop\\EngPathStuff\\cppSTC\\SoundWizardTop\\SoundWizard\\parser\\readfromfile\\test\\TestInterpreting.txt";
-    FileReader Check = FileReader(FilePath); // копируем данные о сигналах из файлы в программу
+    FileReader Check = FileReader("TestInterpreting.txt"); // копируем данные о сигналах из файлы в программу
     Check.fillInformation();
 
     float ToCheck = Check.getWavDuration();
@@ -34,8 +32,7 @@ TEST(ParserTestsReading, SampleRateInterpretation) {
 
     float Sample = 44100;
 
-    std::string FilePath = "C:\\Users\\theiz\\OneDrive\\Desktop\\EngPathStuff\\cppSTC\\SoundWizardTop\\SoundWizard\\parser\\readfromfile\\test\\TestInterpreting.txt";
-    FileReader Check = FileReader(FilePath); // копируем данные о сигналах из файлы в программу
+    FileReader Check = FileReader("TestInterpreting.txt"); // копируем данные о сигналах из файлы в программу
     Check.fillInformation();
 
     float ToCheck = Check.getSampleRate();
@@ -47,9 +44,7 @@ TEST(ParserTestsReading, SignalInfoInterpretation) {
 
     std::vector<float> Sample = {2, 3, 4, 5}; //{duration, ampl, starttime, freq}
 
-
-    std::string FilePath = "C:\\Users\\theiz\\OneDrive\\Desktop\\EngPathStuff\\cppSTC\\SoundWizardTop\\SoundWizard\\parser\\readfromfile\\test\\TestInterpreting.txt";
-    FileReader Check = FileReader(FilePath); // копируем данные о сигналах из файлы в программу
+    FileReader Check = FileReader("TestInterpreting.txt"); // копируем данные о сигналах из файлы в программу
     Check.fillInformation();
 
     std::vector<float> ToCheck = {Check.getDuration(), Check.getAmpl(), Check.getStartingTime(), Check.getFreq()};
@@ -61,8 +56,7 @@ TEST(ParserTestsReading, SignalTypeInterpretation) {
 
     std::string Sample = "harm";
 
-    std::string FilePath = "C:\\Users\\theiz\\OneDrive\\Desktop\\EngPathStuff\\cppSTC\\SoundWizardTop\\SoundWizard\\parser\\readfromfile\\test\\TestInterpreting.txt";
-    FileReader Check = FileReader(FilePath); // копируем данные о сигналах из файлы в программу
+    FileReader Check = FileReader("TestInterpreting.txt"); // копируем данные о сигналах из файлы в программу
     Check.fillInformation();
 
     std::string ToCheck = Check.getSignalType();
@@ -74,8 +68,7 @@ TEST(ParserTestsReading, SignalIDInterpretation) {
 
     uint32_t Sample = 1;
 
-    std::string FilePath = "C:\\Users\\theiz\\OneDrive\\Desktop\\EngPathStuff\\cppSTC\\SoundWizardTop\\SoundWizard\\parser\\readfromfile\\test\\TestInterpreting.txt";
-    FileReader Check = FileReader(FilePath); // копируем данные о сигналах из файлы в программу
+    FileReader Check = FileReader("TestInterpreting.txt"); // копируем данные о сигналах из файлы в программу
     Check.fillInformation();
 
     uint32_t ToCheck = Check.getSignalID();
@@ -85,8 +78,7 @@ TEST(ParserTestsReading, SignalIDInterpretation) {
 
 TEST(ParserTestsReading, CreatedParametersType) {
 
-    std::string FilePath = "C:\\Users\\theiz\\OneDrive\\Desktop\\EngPathStuff\\cppSTC\\SoundWizardTop\\SoundWizard\\parser\\readfromfile\\test\\TestInterpreting2.txt";
-    FileReader Check = FileReader(FilePath); // копируем данные о сигналах из файлы в программу
+    FileReader Check = FileReader("TestInterpreting2.txt"); // копируем данные о сигналах из файлы в программу
     Check.fillInformation();
 
     std::vector<std::shared_ptr<IParameters>> ToCheck = Check.getSignalsParameters();
@@ -104,8 +96,7 @@ TEST(ParserTestsReading, CreatedParametersType) {
 
 TEST(ParserTestsReading, CreatedParametersCheck) {
 
-    std::string FilePath = "C:\\Users\\theiz\\OneDrive\\Desktop\\EngPathStuff\\cppSTC\\SoundWizardTop\\SoundWizard\\parser\\readfromfile\\test\\TestInterpreting2.txt";
-    FileReader Check = FileReader(FilePath); // копируем данные о сигналах из файлы в программу
+    FileReader Check = FileReader("TestInterpreting2.txt"); // копируем данные о сигналах из файлы в программу
     Check.fillInformation();
 
     std::vector<std::shared_ptr<IParameters>> ToCheck = Check.getSignalsParameters();

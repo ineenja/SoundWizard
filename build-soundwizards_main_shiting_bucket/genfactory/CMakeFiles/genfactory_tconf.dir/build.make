@@ -65,6 +65,10 @@ include genfactory/CMakeFiles/genfactory_tconf.dir/compiler_depend.make
 # Include the progress variables for this target.
 include genfactory/CMakeFiles/genfactory_tconf.dir/progress.make
 
+genfactory/CMakeFiles/genfactory_tconf:
+	cd /d C:\Users\theiz\OneDrive\Desktop\EngPathStuff\cppSTC\SoundWizardTop\build-soundwizards_main_shiting_bucket\genfactory && "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/genfactory/test/config/TestGenParams1.txt C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/
+
+genfactory_tconf: genfactory/CMakeFiles/genfactory_tconf
 genfactory_tconf: genfactory/CMakeFiles/genfactory_tconf.dir/build.make
 .PHONY : genfactory_tconf
 

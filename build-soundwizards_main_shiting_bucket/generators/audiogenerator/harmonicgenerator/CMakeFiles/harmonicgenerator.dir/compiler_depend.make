@@ -60,7 +60,6 @@ generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator.dir/src
   C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/functional_hash.h \
   C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/range_access.h \
   C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/vector.tcc \
-  C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include/isignal/isignal.h \
   C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include/iparameters/iparameters.h \
   C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cstring \
   C:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/string.h \
@@ -171,8 +170,7 @@ generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator.dir/src
   C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_base.h \
   C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h \
   C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h \
-  C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include/harmparameters/harmparameters.h \
-  C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include/audiosignal/audiosignal.h
+  C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include/harmparameters/harmparameters.h
 
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_bvector.h:
@@ -188,8 +186,6 @@ C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/g
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/functexcept.h:
 
 C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include/audiogenerator/audiogenerator.h:
-
-C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include/isignal/isignal.h:
 
 C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include/harmparameters/harmparameters.h:
 
@@ -234,6 +230,8 @@ C:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_mac.h:
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_construct.h:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_secapi.h:
+
+C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
 
@@ -323,8 +321,6 @@ C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x8
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/string.h:
 
-C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream:
-
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ostream:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/errno.h:
@@ -392,8 +388,6 @@ C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/
 C:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/limits.h:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/signal.h:
-
-C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include/audiosignal/audiosignal.h:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_classes.tcc:
 

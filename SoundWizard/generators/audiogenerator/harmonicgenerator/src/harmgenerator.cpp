@@ -13,7 +13,7 @@ HarmGenerator::HarmGenerator(float Freq, float Ampl, uint32_t SampleRate, uint32
     this->SignalID = SignalID;
 }
 
-std::vector<float> HarmGenerator::GenerateSignal(){
+std::vector<float> HarmGenerator::GenerateSignal() const{
     std::vector<float> SignalSamples;
 
     float DerivedFreq = 2 * M_PI * HarmFreq / SampleRate;

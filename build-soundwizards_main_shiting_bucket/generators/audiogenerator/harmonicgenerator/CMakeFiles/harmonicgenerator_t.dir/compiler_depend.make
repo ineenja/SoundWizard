@@ -210,7 +210,6 @@ generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator_t.dir/t
   C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/include/harmonicgenerator/harmgenerator.h \
   C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/include/audiogenerator/audiogenerator.h \
   C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include/igenerator/igenerator.h \
-  C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include/isignal/isignal.h \
   C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include/iparameters/iparameters.h \
   C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cstring \
   C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/fstream \
@@ -234,7 +233,7 @@ generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator_t.dir/t
   C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h \
   C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h \
   C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/harmparameters/include/harmparameters/harmparameters.h \
-  C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include/audiosignal/audiosignal.h
+  C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signal/include/signal/signal.h
 
 generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator_t.dir/test/main.cpp.obj: C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/test/main.cpp \
   C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/googletests/gtest/gtest/include/gtest/gtest.h \
@@ -628,8 +627,6 @@ C:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/limits.h:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/signal.h:
 
-C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/audiosignal/include/audiosignal/audiosignal.h:
-
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_classes.tcc:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/pthread_signal.h:
@@ -872,8 +869,6 @@ C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/p
 
 C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/igenerator/include/igenerator/igenerator.h:
 
-C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signals/isignal/include/isignal/isignal.h:
-
 C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/parameters/iparameters/include/iparameters/iparameters.h:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cstring:
@@ -903,5 +898,7 @@ C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bi
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/refwrap.h:
 
 C:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_base.h:
+
+C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/signal/include/signal/signal.h:
 
 C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/test/main.cpp:

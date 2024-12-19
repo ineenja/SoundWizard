@@ -3,7 +3,6 @@
 
 #include <cstdint>
 #include <vector>
-#include "isignal/isignal.h"
 #include "iparameters/iparameters.h"
 #include "readfromfile/readfromfile.h"
 
@@ -11,9 +10,11 @@ class IGenerator
 {
 public:
 
-    virtual uint32_t getSignalID(){
+    virtual uint32_t getSignalID() const{
         return SignalID;
     }
+
+    virtual std::vector<float> GenerateSignal() const = 0;
 
 protected:
     uint32_t SampleRate;

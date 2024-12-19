@@ -93,11 +93,10 @@ audiogenerator_EXTERNAL_OBJECTS =
 soundwizard/binaries/libaudiogenerator.dll: generators/audiogenerator/CMakeFiles/audiogenerator.dir/src/audiogenerator.cpp.obj
 soundwizard/binaries/libaudiogenerator.dll: generators/audiogenerator/CMakeFiles/audiogenerator.dir/build.make
 soundwizard/binaries/libaudiogenerator.dll: generators/igenerator/libigenerator.dll.a
-soundwizard/binaries/libaudiogenerator.dll: signals/audiosignal/libaudiosignal.dll.a
 soundwizard/binaries/libaudiogenerator.dll: parser/readfromfile/libreadfromfile.dll.a
 soundwizard/binaries/libaudiogenerator.dll: parameters/harmparameters/libharmparameters.dll.a
 soundwizard/binaries/libaudiogenerator.dll: parameters/iparameters/libiparameters.dll.a
-soundwizard/binaries/libaudiogenerator.dll: signals/isignal/libisignal.dll.a
+soundwizard/binaries/libaudiogenerator.dll: signal/libsignal.dll.a
 soundwizard/binaries/libaudiogenerator.dll: generators/audiogenerator/CMakeFiles/audiogenerator.dir/linkLibs.rsp
 soundwizard/binaries/libaudiogenerator.dll: generators/audiogenerator/CMakeFiles/audiogenerator.dir/objects1.rsp
 soundwizard/binaries/libaudiogenerator.dll: generators/audiogenerator/CMakeFiles/audiogenerator.dir/link.txt

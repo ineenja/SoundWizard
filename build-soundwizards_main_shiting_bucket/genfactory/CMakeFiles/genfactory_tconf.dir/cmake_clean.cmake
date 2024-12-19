@@ -1,3 +1,6 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/genfactory_tconf"
+)
 
 # Per-language clean rules from dependency scanning.
 foreach(lang )

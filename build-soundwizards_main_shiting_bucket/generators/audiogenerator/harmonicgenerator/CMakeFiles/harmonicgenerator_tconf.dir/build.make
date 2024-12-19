@@ -65,6 +65,10 @@ include generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator
 # Include the progress variables for this target.
 include generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator_tconf.dir/progress.make
 
+generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator_tconf:
+	cd /d C:\Users\theiz\OneDrive\Desktop\EngPathStuff\cppSTC\SoundWizardTop\build-soundwizards_main_shiting_bucket\generators\audiogenerator\harmonicgenerator && "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/SoundWizard/generators/audiogenerator/harmonicgenerator/test/config/TestGenParams1.txt C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build-soundwizards_main_shiting_bucket/soundwizard/binaries/
+
+harmonicgenerator_tconf: generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator_tconf
 harmonicgenerator_tconf: generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator_tconf.dir/build.make
 .PHONY : harmonicgenerator_tconf
 

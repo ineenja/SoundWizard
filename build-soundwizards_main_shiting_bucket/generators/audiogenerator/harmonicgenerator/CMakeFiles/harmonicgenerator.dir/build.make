@@ -97,8 +97,7 @@ soundwizard/binaries/libharmonicgenerator.dll: generators/igenerator/libigenerat
 soundwizard/binaries/libharmonicgenerator.dll: parser/readfromfile/libreadfromfile.dll.a
 soundwizard/binaries/libharmonicgenerator.dll: parameters/harmparameters/libharmparameters.dll.a
 soundwizard/binaries/libharmonicgenerator.dll: parameters/iparameters/libiparameters.dll.a
-soundwizard/binaries/libharmonicgenerator.dll: signals/audiosignal/libaudiosignal.dll.a
-soundwizard/binaries/libharmonicgenerator.dll: signals/isignal/libisignal.dll.a
+soundwizard/binaries/libharmonicgenerator.dll: signal/libsignal.dll.a
 soundwizard/binaries/libharmonicgenerator.dll: generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator.dir/linkLibs.rsp
 soundwizard/binaries/libharmonicgenerator.dll: generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator.dir/objects1.rsp
 soundwizard/binaries/libharmonicgenerator.dll: generators/audiogenerator/harmonicgenerator/CMakeFiles/harmonicgenerator.dir/link.txt

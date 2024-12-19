@@ -1,1 +1,1 @@
- ../../signals/isignal/libisignal.dll.a ../../parser/readfromfile/libreadfromfile.dll.a ../../parameters/harmparameters/libharmparameters.dll.a ../../parameters/iparameters/libiparameters.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ ../../parser/readfromfile/libreadfromfile.dll.a ../../signal/libsignal.dll.a ../../parameters/harmparameters/libharmparameters.dll.a ../../parameters/iparameters/libiparameters.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

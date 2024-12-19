@@ -1,3 +1,0 @@
-C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build_audiosignal_kakai_suda/CMakeFiles/audiosignal.dir
-C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build_audiosignal_kakai_suda/CMakeFiles/edit_cache.dir
-C:/Users/theiz/OneDrive/Desktop/EngPathStuff/cppSTC/SoundWizardTop/build_audiosignal_kakai_suda/CMakeFiles/rebuild_cache.dir
